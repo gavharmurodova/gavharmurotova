@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.continer{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)),url(kompyuter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    position: absolute;
+}
+.navbar nav ul li a:hover{
+    color: crimson;
+}
+nav h1{
+    color:white;
+    display: inline-block;
+    font-size: 65px;
+    margin-top: 40px;
+    margin-left:200px;
+}
+nav h1 span{
+    color: blue;
+}
+nav ul{
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 90px;
+    margin-top: 50px;
+    font-size: 30px;
+}
+nav ul li a{
+    color: blue;
+    text-decoration: none;
+}
+.navbar1{
+     display: flex;
+}
+.nev{
+    width: 50%;
+    height: 86vh;
+}
+.nev1{  
+    width: 50%;
+    height: 86vh;
+}
+.nev1 img{
+    width: 600px;
+    height: 600px;
+    margin-left: 130px;
+    margin-top: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.continer h4{
+    color: white;
+    font-size: 55px;
+    margin-top: 250px;
+    margin-left: 200px;
+}
+h1{
+    color: blue;
+    font-size: 70px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.nev h4{
+    margin-top: 400px;
+}
+h2{
+    color: blue;
+    font-size: 45px;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: aliceblue;
+    margin-top: 60px;
+}
+h1 span{
+    color: aliceblue;
+}
+
+
+/*ikkinchi div continer1*/
+
+.continer1{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.9)),url(kompyuter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.continer1 img{
+    width: 500px;
+    height: 80vh;
+    margin-left: 95px;
+    margin-top: 150px
+}
+
+.continer1 h1{
+    margin-left: 350px;
+    margin-top: 150px;
+}
+.continer1 h4{
+    margin-left: 350px;
+    color: aliceblue;
+    margin-top: 28px;
+} 
+.about1{
+    margin-top: 400vh;
+    margin-right: 700px;
+}
+.nav{
+    display: flex;
+}
+.nav h5{
+   margin-top: 50px;
+   color: blue;
+   margin-left: 350px;
+   font-size: 25px;
+}
+.about span{
+    color: aliceblue;
+}
+
+
+/* uchinchi div continer2*/
+
+
+.continer2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)),url(kompyuter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.forder img{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 150px;
+}
+.forder h1{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1000px;
+    font-size: 50px;
+}
+.forder h2{
+    margin-top: 250px;
+    margin-left: 800px;
+    position: absolute;
+    font-size:30px ;
+}
+.silki h1{
+    margin-top: 400px;
+    margin-left: 800px;
+}
+.silki h2{
+    margin-top: 500px;
+    margin-left: 800px;
+}
+.til{
+    position: absolute;
+    margin-top: 240px;
+}
+.til h2{
+    margin-left: 140vh;
+}
+.til h1{
+    margin-left: 130vh;
+}
+/* contact me*/
+.contener3{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.9)),url(kompyuter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+.contact_input{
+    width: 50%;
+    font-size: var(--normal-font-size);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1.5px solid vara(--second-color);
+    outline: none;
+    margin-bottom: var(--mb-4);
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.contact_button {
+    display: block;
+    border: none;
+    outline: none;
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+    margin-left: auto;
+    height: 700px;
+}
+.contener3 h2{
+    font-size: 70px;
+    margin-left: 700px;
+}
+.contact_form{
+    margin-top: 100px;
+}
